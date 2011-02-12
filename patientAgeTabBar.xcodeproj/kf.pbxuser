@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* patientAgeTabBar */ = {
+		activeExec = 0;
+		executables = (
+			AAD67ACF1307423600C7505D /* patientAgeTabBar */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {574, 368}}";
+			sepNavSelRange = "{309, 36}";
+			sepNavVisRange = "{0, 351}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {574, 1168}}";
+			sepNavSelRange = "{1183, 0}";
+			sepNavVisRange = "{795, 519}";
+			sepNavWindowFrame = "{{15, 294}, {716, 479}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AAD67ACF1307423600C7505D /* patientAgeTabBar */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* patientAgeTabBar */;
+		breakpoints = (
+			AAD67B3E13074FCD00C7505D /* FirstViewController.m:48 */,
+		);
+		codeSenseManager = AAD67AE71307425300C7505D /* Code sense */;
+		executables = (
+			AAD67ACF1307423600C7505D /* patientAgeTabBar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					396,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319242807;
+			PBXWorkspaceStateSaveDate = 319242807;
+		};
+		perUserProjectItems = {
+			AAD67B4013074FD200C7505D /* PBXTextBookmark */ = AAD67B4013074FD200C7505D /* PBXTextBookmark */;
+			AAD67B4113074FD200C7505D /* PBXTextBookmark */ = AAD67B4113074FD200C7505D /* PBXTextBookmark */;
+			AAD67B4213074FD200C7505D /* PBXTextBookmark */ = AAD67B4213074FD200C7505D /* PBXTextBookmark */;
+			AAD67B52130750BD00C7505D /* PBXTextBookmark */ = AAD67B52130750BD00C7505D /* PBXTextBookmark */;
+			AAD67B581307510900C7505D /* PBXTextBookmark */ = AAD67B581307510900C7505D /* PBXTextBookmark */;
+			AAD67B591307510900C7505D /* PBXTextBookmark */ = AAD67B591307510900C7505D /* PBXTextBookmark */;
+		};
+		sourceControlManager = AAD67AE61307425300C7505D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AAD67ACF1307423600C7505D /* patientAgeTabBar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = patientAgeTabBar;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	AAD67AE61307425300C7505D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AAD67AE71307425300C7505D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AAD67B3E13074FCD00C7505D /* FirstViewController.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		functionName = "-updateAge:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = patientAgeTabBar;
+		modificationTime = 319246466.387099;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AAD67B4013074FD200C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 16";
+		rLen = 36;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	AAD67B4113074FD200C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 48";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 1116;
+	};
+	AAD67B4213074FD200C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 48";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 1116;
+	};
+	AAD67B52130750BD00C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 48";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 1116;
+	};
+	AAD67B581307510900C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 48";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 1116;
+	};
+	AAD67B591307510900C7505D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 48";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 795;
+	};
+}
