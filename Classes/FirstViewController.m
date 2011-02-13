@@ -46,6 +46,27 @@
 
 - (IBAction) updateAge: (id) sender{
 	NSLog(@"date changed");
+	NSDate *selectedDate =  dpBirthDate.date;
+	NSDate *now = [[NSDate alloc] initWithTimeIntervalSinceNow:(NSTimeInterval)0];
+	
+	NSCalendar *gregorian = [[NSCalendar alloc]
+							 initWithCalendarIdentifier:NSGregorianCalendar];
+	
+	NSUInteger unitFlags = NSYearCalendarUnit | NSDayCalendarUnit;
+	
+	NSDateComponents *components = [gregorian components:unitFlags
+												fromDate:selectedDate
+												  toDate:now options:0];
+
+	NSInteger years=[components year];
+	NSInteger days=[components day];
+	
+	NSString *dateMsg = [[NSString alloc] initWithFormat: @"%ld years, %ld days",(long)years,(long)days];
+	
+	lblPatientAge.text=dateMsg;
+	[dateMsg release];
+	[gregorian release];
+	[now release];
 }
 
 - (void)didReceiveMemoryWarning {
